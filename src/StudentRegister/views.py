@@ -30,8 +30,6 @@ def table_view(request):
     return render_to_response("Index.html", context)
 '''
 
-#teachers = Teacher.objects.all() # чтобы переменная была глобальной...............простите мне это
-
 # Create your views here.
 def Add_Student_Info(request):
     teachers = Teacher.objects.all()
